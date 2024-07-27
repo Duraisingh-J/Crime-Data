@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_012ddf86d9dc62ecf950301a603957b1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_012ddf86d9dc62ecf950301a603957b1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_012ddf86d9dc62ecf950301a603957b1 = L.map(
+                "map_012ddf86d9dc62ecf950301a603957b1",
+                {
+                    center: [11.0084027771875, 78.5401909725],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d114de1e35d26bf350948ec1972a3a7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4d114de1e35d26bf350948ec1972a3a7.addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+            var marker_176d378b010d4f023a351058e3228d80 = L.marker(
+                [11.14305556, 79.07416667],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_8cac456a2c10ac115f501d29d7579417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709e9e97ff8760453cfdee5a463baf6d = $(`<div id="html_709e9e97ff8760453cfdee5a463baf6d" style="width: 100.0%; height: 100.0%;">District: ARIYALUR<br>Rape: 10<br>Kidnapping & Abduction: 19<br>Dowry Deaths: 3<br>Cruelty: 8<br>Molestation: 23<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 0<br>Indescent Representation: 0<br>Dowry Prohibition Act: 7<br>Total Cases: 70</div>`)[0];
+                popup_8cac456a2c10ac115f501d29d7579417.setContent(html_709e9e97ff8760453cfdee5a463baf6d);
+            
+        
+
+        marker_176d378b010d4f023a351058e3228d80.bindPopup(popup_8cac456a2c10ac115f501d29d7579417)
+        ;
+
+        
+    
+    
+            var marker_9199d87192d83bbbd30b5989d4b8bd9f = L.marker(
+                [13.10805556, 80.26333333],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_32fa7970a111966ca197c5cdc030623f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a55c05b0e8eebd8b8c3449d26043f7f = $(`<div id="html_6a55c05b0e8eebd8b8c3449d26043f7f" style="width: 100.0%; height: 100.0%;">District: CHENNAI <br>Rape: 83<br>Kidnapping & Abduction: 60<br>Dowry Deaths: 12<br>Cruelty: 222<br>Molestation: 60<br>Sexual  Harassment: 155<br>Immoral Traffic Act: 264<br>Indescent Representation: 2<br>Dowry Prohibition Act: 4<br>Total Cases: 862</div>`)[0];
+                popup_32fa7970a111966ca197c5cdc030623f.setContent(html_6a55c05b0e8eebd8b8c3449d26043f7f);
+            
+        
+
+        marker_9199d87192d83bbbd30b5989d4b8bd9f.bindPopup(popup_32fa7970a111966ca197c5cdc030623f)
+        ;
+
+        
+    
+    
+            var marker_a7a035ba3c76c1a09f06c8ecbe5414fb = L.marker(
+                [11.03361111, 76.95555556],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_4233c4b8e650c027d62e9ab5940e8d4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bff6297873cf97d0c487eb82377073d1 = $(`<div id="html_bff6297873cf97d0c487eb82377073d1" style="width: 100.0%; height: 100.0%;">District: COIMBATORE<br>Rape: 28<br>Kidnapping & Abduction: 39<br>Dowry Deaths: 2<br>Cruelty: 97<br>Molestation: 56<br>Sexual  Harassment: 11<br>Immoral Traffic Act: 45<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 278</div>`)[0];
+                popup_4233c4b8e650c027d62e9ab5940e8d4d.setContent(html_bff6297873cf97d0c487eb82377073d1);
+            
+        
+
+        marker_a7a035ba3c76c1a09f06c8ecbe5414fb.bindPopup(popup_4233c4b8e650c027d62e9ab5940e8d4d)
+        ;
+
+        
+    
+    
+            var marker_d3635e55134b71187274a2ca2e666a0b = L.marker(
+                [11.75694444, 79.77166667],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_b5d9efbc14e09b1d26edb5861803181a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_128a6bf7f2471cfdac8ce80648e0652f = $(`<div id="html_128a6bf7f2471cfdac8ce80648e0652f" style="width: 100.0%; height: 100.0%;">District: CUDDALORE<br>Rape: 36<br>Kidnapping & Abduction: 60<br>Dowry Deaths: 6<br>Cruelty: 66<br>Molestation: 8<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 4<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 180</div>`)[0];
+                popup_b5d9efbc14e09b1d26edb5861803181a.setContent(html_128a6bf7f2471cfdac8ce80648e0652f);
+            
+        
+
+        marker_d3635e55134b71187274a2ca2e666a0b.bindPopup(popup_b5d9efbc14e09b1d26edb5861803181a)
+        ;
+
+        
+    
+    
+            var marker_8f7ca15ee795e93d289e84dbb79476d1 = L.marker(
+                [12.125, 78.15777778],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_b7ce5dd6634daf525cae01d84ecdd697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dead7bbcd949fbb8e6876dc3bfc8c866 = $(`<div id="html_dead7bbcd949fbb8e6876dc3bfc8c866" style="width: 100.0%; height: 100.0%;">District: DHARMAPURI<br>Rape: 23<br>Kidnapping & Abduction: 157<br>Dowry Deaths: 2<br>Cruelty: 65<br>Molestation: 48<br>Sexual  Harassment: 1<br>Immoral Traffic Act: 8<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 304</div>`)[0];
+                popup_b7ce5dd6634daf525cae01d84ecdd697.setContent(html_dead7bbcd949fbb8e6876dc3bfc8c866);
+            
+        
+
+        marker_8f7ca15ee795e93d289e84dbb79476d1.bindPopup(popup_b7ce5dd6634daf525cae01d84ecdd697)
+        ;
+
+        
+    
+    
+            var marker_202f5eb9a5fc75517a4997983ad95f6d = L.marker(
+                [10.36361111, 77.96944444],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_025a5ef6273c2d2e60d1e7215722253f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28edd32823c06838fd3cfde2a364e6bd = $(`<div id="html_28edd32823c06838fd3cfde2a364e6bd" style="width: 100.0%; height: 100.0%;">District: DINDIGUL<br>Rape: 13<br>Kidnapping & Abduction: 95<br>Dowry Deaths: 1<br>Cruelty: 95<br>Molestation: 46<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 11<br>Indescent Representation: 0<br>Dowry Prohibition Act: 9<br>Total Cases: 270</div>`)[0];
+                popup_025a5ef6273c2d2e60d1e7215722253f.setContent(html_28edd32823c06838fd3cfde2a364e6bd);
+            
+        
+
+        marker_202f5eb9a5fc75517a4997983ad95f6d.bindPopup(popup_025a5ef6273c2d2e60d1e7215722253f)
+        ;
+
+        
+    
+    
+            var marker_ecadbe4a25c26337b34dd21e69b50943 = L.marker(
+                [11.34722222, 77.71638889],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_fffdd72d34a79f2aa13b48d4295e6baa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b979f714d1bbec9bc8fc330e48906472 = $(`<div id="html_b979f714d1bbec9bc8fc330e48906472" style="width: 100.0%; height: 100.0%;">District: ERODE<br>Rape: 14<br>Kidnapping & Abduction: 32<br>Dowry Deaths: 0<br>Cruelty: 21<br>Molestation: 25<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 7<br>Indescent Representation: 0<br>Dowry Prohibition Act: 6<br>Total Cases: 105</div>`)[0];
+                popup_fffdd72d34a79f2aa13b48d4295e6baa.setContent(html_b979f714d1bbec9bc8fc330e48906472);
+            
+        
+
+        marker_ecadbe4a25c26337b34dd21e69b50943.bindPopup(popup_fffdd72d34a79f2aa13b48d4295e6baa)
+        ;
+
+        
+    
+    
+            var marker_f6d4548132ebfd062bdc07d0850872cf = L.marker(
+                [12.83861111, 79.70416667],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_be76cb40eb1d02dd722f1d8e87d2d0a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79dd9c22329cdda4d539ebc98925d577 = $(`<div id="html_79dd9c22329cdda4d539ebc98925d577" style="width: 100.0%; height: 100.0%;">District: KANCHEEPURAM<br>Rape: 24<br>Kidnapping & Abduction: 9<br>Dowry Deaths: 3<br>Cruelty: 18<br>Molestation: 15<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 11<br>Indescent Representation: 0<br>Dowry Prohibition Act: 9<br>Total Cases: 89</div>`)[0];
+                popup_be76cb40eb1d02dd722f1d8e87d2d0a6.setContent(html_79dd9c22329cdda4d539ebc98925d577);
+            
+        
+
+        marker_f6d4548132ebfd062bdc07d0850872cf.bindPopup(popup_be76cb40eb1d02dd722f1d8e87d2d0a6)
+        ;
+
+        
+    
+    
+            var marker_dd901e73aaad152170947d462cbbe357 = L.marker(
+                [8.085, 77.54916667],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_9607d32960d96153c8fb324cf71907b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_768883592405b4e12a4258ea8f9d17b0 = $(`<div id="html_768883592405b4e12a4258ea8f9d17b0" style="width: 100.0%; height: 100.0%;">District: KANNIYAKUMARI<br>Rape: 12<br>Kidnapping & Abduction: 35<br>Dowry Deaths: 1<br>Cruelty: 118<br>Molestation: 5<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 9<br>Indescent Representation: 0<br>Dowry Prohibition Act: 1<br>Total Cases: 181</div>`)[0];
+                popup_9607d32960d96153c8fb324cf71907b8.setContent(html_768883592405b4e12a4258ea8f9d17b0);
+            
+        
+
+        marker_dd901e73aaad152170947d462cbbe357.bindPopup(popup_9607d32960d96153c8fb324cf71907b8)
+        ;
+
+        
+    
+    
+            var marker_34cab46ba2d4b38bf3390dc2d8e4aed4 = L.marker(
+                [10.96694444, 78.07583333],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_c0e0cc19de2949519af28d90f8c5d167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7be60096a398f0011f7c678b3b0b1f9 = $(`<div id="html_c7be60096a398f0011f7c678b3b0b1f9" style="width: 100.0%; height: 100.0%;">District: KARUR<br>Rape: 7<br>Kidnapping & Abduction: 17<br>Dowry Deaths: 0<br>Cruelty: 11<br>Molestation: 9<br>Sexual  Harassment: 1<br>Immoral Traffic Act: 14<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 59</div>`)[0];
+                popup_c0e0cc19de2949519af28d90f8c5d167.setContent(html_c7be60096a398f0011f7c678b3b0b1f9);
+            
+        
+
+        marker_34cab46ba2d4b38bf3390dc2d8e4aed4.bindPopup(popup_c0e0cc19de2949519af28d90f8c5d167)
+        ;
+
+        
+    
+    
+            var marker_07728a4ac49ca7c31f13bd0e5835bf11 = L.marker(
+                [12.52777778, 78.215],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_aed8a6bc9d1f5c8103d5c4390e708d80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec72923d7938bc134879e6a5d75db44d = $(`<div id="html_ec72923d7938bc134879e6a5d75db44d" style="width: 100.0%; height: 100.0%;">District: KRISHNAGIRI<br>Rape: 8<br>Kidnapping & Abduction: 70<br>Dowry Deaths: 12<br>Cruelty: 47<br>Molestation: 48<br>Sexual  Harassment: 2<br>Immoral Traffic Act: 3<br>Indescent Representation: 1<br>Dowry Prohibition Act: 0<br>Total Cases: 191</div>`)[0];
+                popup_aed8a6bc9d1f5c8103d5c4390e708d80.setContent(html_ec72923d7938bc134879e6a5d75db44d);
+            
+        
+
+        marker_07728a4ac49ca7c31f13bd0e5835bf11.bindPopup(popup_aed8a6bc9d1f5c8103d5c4390e708d80)
+        ;
+
+        
+    
+    
+            var marker_9d108aea7c0ec2228eb3bdd6292cd397 = L.marker(
+                [9.92944444, 78.12],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_7bb73c20b89bf1c53f1084409c4ed5c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7bd3352150910602f71cd47607bc746 = $(`<div id="html_f7bd3352150910602f71cd47607bc746" style="width: 100.0%; height: 100.0%;">District: MADURAI<br>Rape: 49<br>Kidnapping & Abduction: 143<br>Dowry Deaths: 7<br>Cruelty: 354<br>Molestation: 96<br>Sexual  Harassment: 19<br>Immoral Traffic Act: 43<br>Indescent Representation: 6<br>Dowry Prohibition Act: 0<br>Total Cases: 717</div>`)[0];
+                popup_7bb73c20b89bf1c53f1084409c4ed5c9.setContent(html_f7bd3352150910602f71cd47607bc746);
+            
+        
+
+        marker_9d108aea7c0ec2228eb3bdd6292cd397.bindPopup(popup_7bb73c20b89bf1c53f1084409c4ed5c9)
+        ;
+
+        
+    
+    
+            var marker_091651d4cae56a4b2a41646274f4484c = L.marker(
+                [10.77388889, 79.84333333],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_c0bfe9bdc186b07b307c6b54f2fc278e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44a14c40a79769d4d8f44b620e528fc9 = $(`<div id="html_44a14c40a79769d4d8f44b620e528fc9" style="width: 100.0%; height: 100.0%;">District: NAGAPATTINAM<br>Rape: 9<br>Kidnapping & Abduction: 24<br>Dowry Deaths: 3<br>Cruelty: 9<br>Molestation: 30<br>Sexual  Harassment: 23<br>Immoral Traffic Act: 1<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 99</div>`)[0];
+                popup_c0bfe9bdc186b07b307c6b54f2fc278e.setContent(html_44a14c40a79769d4d8f44b620e528fc9);
+            
+        
+
+        marker_091651d4cae56a4b2a41646274f4484c.bindPopup(popup_c0bfe9bdc186b07b307c6b54f2fc278e)
+        ;
+
+        
+    
+    
+            var marker_f7c73df9272809867c17689635e69308 = L.marker(
+                [11.22194444, 78.1675],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_e44d2efa4a66782aa34091bde0bec58b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d53eb784c100ccbf0d1be26f11d9b833 = $(`<div id="html_d53eb784c100ccbf0d1be26f11d9b833" style="width: 100.0%; height: 100.0%;">District: NAMAKKAL<br>Rape: 23<br>Kidnapping & Abduction: 44<br>Dowry Deaths: 0<br>Cruelty: 15<br>Molestation: 57<br>Sexual  Harassment: 11<br>Immoral Traffic Act: 5<br>Indescent Representation: 0<br>Dowry Prohibition Act: 6<br>Total Cases: 161</div>`)[0];
+                popup_e44d2efa4a66782aa34091bde0bec58b.setContent(html_d53eb784c100ccbf0d1be26f11d9b833);
+            
+        
+
+        marker_f7c73df9272809867c17689635e69308.bindPopup(popup_e44d2efa4a66782aa34091bde0bec58b)
+        ;
+
+        
+    
+    
+            var marker_9091ca95f563313f7b8efda8fed88643 = L.marker(
+                [11.54916667, 76.72],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_629f458db6ea03b16aed80babd16305a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b63c313654e3fadf126e31f1c89b843 = $(`<div id="html_9b63c313654e3fadf126e31f1c89b843" style="width: 100.0%; height: 100.0%;">District: NILGIRIS<br>Rape: 15<br>Kidnapping & Abduction: 10<br>Dowry Deaths: 0<br>Cruelty: 1<br>Molestation: 18<br>Sexual  Harassment: 1<br>Immoral Traffic Act: 4<br>Indescent Representation: 0<br>Dowry Prohibition Act: 5<br>Total Cases: 54</div>`)[0];
+                popup_629f458db6ea03b16aed80babd16305a.setContent(html_9b63c313654e3fadf126e31f1c89b843);
+            
+        
+
+        marker_9091ca95f563313f7b8efda8fed88643.bindPopup(popup_629f458db6ea03b16aed80babd16305a)
+        ;
+
+        
+    
+    
+            var marker_18e7f8262b2e55963900f56f694afe93 = L.marker(
+                [11.23555556, 78.88027778],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_0bb31cf64ded3637fa52fe8b0f5afa0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f0f9641dbcc74d3cd95e63d862535ee = $(`<div id="html_4f0f9641dbcc74d3cd95e63d862535ee" style="width: 100.0%; height: 100.0%;">District: PERAMBALUR<br>Rape: 8<br>Kidnapping & Abduction: 4<br>Dowry Deaths: 0<br>Cruelty: 5<br>Molestation: 13<br>Sexual  Harassment: 1<br>Immoral Traffic Act: 0<br>Indescent Representation: 0<br>Dowry Prohibition Act: 1<br>Total Cases: 32</div>`)[0];
+                popup_0bb31cf64ded3637fa52fe8b0f5afa0e.setContent(html_4f0f9641dbcc74d3cd95e63d862535ee);
+            
+        
+
+        marker_18e7f8262b2e55963900f56f694afe93.bindPopup(popup_0bb31cf64ded3637fa52fe8b0f5afa0e)
+        ;
+
+        
+    
+    
+            var marker_28f16a4c21b7da5a1d74692feb33ea80 = L.marker(
+                [10.38472222, 78.79972222],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_c3b2570f2292ca066a987b7761fa5174 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfb16600d8a41e6c8477caedcf201aec = $(`<div id="html_bfb16600d8a41e6c8477caedcf201aec" style="width: 100.0%; height: 100.0%;">District: PUDUKOTTAI<br>Rape: 10<br>Kidnapping & Abduction: 54<br>Dowry Deaths: 3<br>Cruelty: 39<br>Molestation: 29<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 1<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 136</div>`)[0];
+                popup_c3b2570f2292ca066a987b7761fa5174.setContent(html_bfb16600d8a41e6c8477caedcf201aec);
+            
+        
+
+        marker_28f16a4c21b7da5a1d74692feb33ea80.bindPopup(popup_c3b2570f2292ca066a987b7761fa5174)
+        ;
+
+        
+    
+    
+            var marker_431a2c83306656d4a7faafe31b6ded5d = L.marker(
+                [9.3675, 78.83944444],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_a2c6dde39c5e47464b89e889fbbcb629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709015affe8efe1dc09ba21097d61f6a = $(`<div id="html_709015affe8efe1dc09ba21097d61f6a" style="width: 100.0%; height: 100.0%;">District: RAMNATHAPURAM<br>Rape: 9<br>Kidnapping & Abduction: 25<br>Dowry Deaths: 2<br>Cruelty: 20<br>Molestation: 24<br>Sexual  Harassment: 2<br>Immoral Traffic Act: 12<br>Indescent Representation: 0<br>Dowry Prohibition Act: 24<br>Total Cases: 118</div>`)[0];
+                popup_a2c6dde39c5e47464b89e889fbbcb629.setContent(html_709015affe8efe1dc09ba21097d61f6a);
+            
+        
+
+        marker_431a2c83306656d4a7faafe31b6ded5d.bindPopup(popup_a2c6dde39c5e47464b89e889fbbcb629)
+        ;
+
+        
+    
+    
+            var marker_2635bd92f578746de025a3d90ec08bf0 = L.marker(
+                [11.67694444, 78.14527778],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_c292578105bc1baf1d26c1d0d7569090 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9375510e0c8200cd368af0e2404667c1 = $(`<div id="html_9375510e0c8200cd368af0e2404667c1" style="width: 100.0%; height: 100.0%;">District: SALEM<br>Rape: 42<br>Kidnapping & Abduction: 91<br>Dowry Deaths: 6<br>Cruelty: 96<br>Molestation: 72<br>Sexual  Harassment: 9<br>Immoral Traffic Act: 14<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 330</div>`)[0];
+                popup_c292578105bc1baf1d26c1d0d7569090.setContent(html_9375510e0c8200cd368af0e2404667c1);
+            
+        
+
+        marker_2635bd92f578746de025a3d90ec08bf0.bindPopup(popup_c292578105bc1baf1d26c1d0d7569090)
+        ;
+
+        
+    
+    
+            var marker_f450b6ff17f54cd3ea69bcfd3c41c806 = L.marker(
+                [10.0225, 78.56916667],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_7c96fb38e462a68061c40b8c67c08c3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53225fa8fc5bcc5b07978a8e622c6b68 = $(`<div id="html_53225fa8fc5bcc5b07978a8e622c6b68" style="width: 100.0%; height: 100.0%;">District: SIVAGANGAI<br>Rape: 16<br>Kidnapping & Abduction: 34<br>Dowry Deaths: 4<br>Cruelty: 87<br>Molestation: 35<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 4<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 180</div>`)[0];
+                popup_7c96fb38e462a68061c40b8c67c08c3f.setContent(html_53225fa8fc5bcc5b07978a8e622c6b68);
+            
+        
+
+        marker_f450b6ff17f54cd3ea69bcfd3c41c806.bindPopup(popup_7c96fb38e462a68061c40b8c67c08c3f)
+        ;
+
+        
+    
+    
+            var marker_3c9f6c924a0fe53a12318a53c924b297 = L.marker(
+                [10.80166667, 79.13555556],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_2bea69ecf9b4acf994fe5cd60478720c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3aac8dc4c268de00538dc8da26c3780 = $(`<div id="html_b3aac8dc4c268de00538dc8da26c3780" style="width: 100.0%; height: 100.0%;">District: THANJAVUR<br>Rape: 31<br>Kidnapping & Abduction: 61<br>Dowry Deaths: 0<br>Cruelty: 46<br>Molestation: 68<br>Sexual  Harassment: 4<br>Immoral Traffic Act: 14<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 224</div>`)[0];
+                popup_2bea69ecf9b4acf994fe5cd60478720c.setContent(html_b3aac8dc4c268de00538dc8da26c3780);
+            
+        
+
+        marker_3c9f6c924a0fe53a12318a53c924b297.bindPopup(popup_2bea69ecf9b4acf994fe5cd60478720c)
+        ;
+
+        
+    
+    
+            var marker_3239e769b3fb6987aed479ae439f4ebd = L.marker(
+                [10.01111111, 77.47222222],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_865aaca5a092733478083fc79a641d78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10e717cadaf9a5c11294e0c0939d3121 = $(`<div id="html_10e717cadaf9a5c11294e0c0939d3121" style="width: 100.0%; height: 100.0%;">District: THENI<br>Rape: 25<br>Kidnapping & Abduction: 38<br>Dowry Deaths: 5<br>Cruelty: 62<br>Molestation: 41<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 9<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 180</div>`)[0];
+                popup_865aaca5a092733478083fc79a641d78.setContent(html_10e717cadaf9a5c11294e0c0939d3121);
+            
+        
+
+        marker_3239e769b3fb6987aed479ae439f4ebd.bindPopup(popup_865aaca5a092733478083fc79a641d78)
+        ;
+
+        
+    
+    
+            var marker_b534fd56217f67e080f290a5148452a2 = L.marker(
+                [8.77194444, 78.135],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_c72b443deb111959f7344781d8bf9289 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a0fd8bc12e7f891138c9c4d7fee052c = $(`<div id="html_3a0fd8bc12e7f891138c9c4d7fee052c" style="width: 100.0%; height: 100.0%;">District: THOOTHUKUDI<br>Rape: 52<br>Kidnapping & Abduction: 30<br>Dowry Deaths: 2<br>Cruelty: 64<br>Molestation: 35<br>Sexual  Harassment: 1<br>Immoral Traffic Act: 6<br>Indescent Representation: 0<br>Dowry Prohibition Act: 2<br>Total Cases: 192</div>`)[0];
+                popup_c72b443deb111959f7344781d8bf9289.setContent(html_3a0fd8bc12e7f891138c9c4d7fee052c);
+            
+        
+
+        marker_b534fd56217f67e080f290a5148452a2.bindPopup(popup_c72b443deb111959f7344781d8bf9289)
+        ;
+
+        
+    
+    
+            var marker_004a3dc117defdd764389c09e78ec786 = L.marker(
+                [8.72861111, 77.76694444],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_83ae26703f13d002ac93d79e5b589def = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_941e46893bb9e6dd241d9017b9b89036 = $(`<div id="html_941e46893bb9e6dd241d9017b9b89036" style="width: 100.0%; height: 100.0%;">District: TIRUNELVELI<br>Rape: 86<br>Kidnapping & Abduction: 136<br>Dowry Deaths: 6<br>Cruelty: 504<br>Molestation: 86<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 6<br>Indescent Representation: 0<br>Dowry Prohibition Act: 17<br>Total Cases: 841</div>`)[0];
+                popup_83ae26703f13d002ac93d79e5b589def.setContent(html_941e46893bb9e6dd241d9017b9b89036);
+            
+        
+
+        marker_004a3dc117defdd764389c09e78ec786.bindPopup(popup_83ae26703f13d002ac93d79e5b589def)
+        ;
+
+        
+    
+    
+            var marker_99f158f29a198938194a60e2b7db270c = L.marker(
+                [11.12083333, 77.33916667],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_20abb5d6aae83b404bcbd70dbabe38a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c1ebea634a89e5200f4fcaebcd2fbe9 = $(`<div id="html_1c1ebea634a89e5200f4fcaebcd2fbe9" style="width: 100.0%; height: 100.0%;">District: TIRUPPUR<br>Rape: 20<br>Kidnapping & Abduction: 53<br>Dowry Deaths: 8<br>Cruelty: 91<br>Molestation: 40<br>Sexual  Harassment: 7<br>Immoral Traffic Act: 14<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 233</div>`)[0];
+                popup_20abb5d6aae83b404bcbd70dbabe38a0.setContent(html_1c1ebea634a89e5200f4fcaebcd2fbe9);
+            
+        
+
+        marker_99f158f29a198938194a60e2b7db270c.bindPopup(popup_20abb5d6aae83b404bcbd70dbabe38a0)
+        ;
+
+        
+    
+    
+            var marker_c30ca5b9914763c6b4b763385d1c8e50 = L.marker(
+                [13.12444444, 79.91138889],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_c8d183e8d0a52e018226c8b81e6606d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_881ca7a4ae8f803bf8158e3d8a73afed = $(`<div id="html_881ca7a4ae8f803bf8158e3d8a73afed" style="width: 100.0%; height: 100.0%;">District: TIRUVALLUR<br>Rape: 21<br>Kidnapping & Abduction: 23<br>Dowry Deaths: 9<br>Cruelty: 19<br>Molestation: 11<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 3<br>Indescent Representation: 0<br>Dowry Prohibition Act: 0<br>Total Cases: 86</div>`)[0];
+                popup_c8d183e8d0a52e018226c8b81e6606d8.setContent(html_881ca7a4ae8f803bf8158e3d8a73afed);
+            
+        
+
+        marker_c30ca5b9914763c6b4b763385d1c8e50.bindPopup(popup_c8d183e8d0a52e018226c8b81e6606d8)
+        ;
+
+        
+    
+    
+            var marker_efcdacf0677fc1a86b8727a54b322a57 = L.marker(
+                [12.22944444, 79.07444444],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_813c32299f67ed798c6f67fb3d860f11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab6822401e5f5625cf0cb29748cda07f = $(`<div id="html_ab6822401e5f5625cf0cb29748cda07f" style="width: 100.0%; height: 100.0%;">District: TIRUVANNAMALAI<br>Rape: 50<br>Kidnapping & Abduction: 56<br>Dowry Deaths: 2<br>Cruelty: 34<br>Molestation: 31<br>Sexual  Harassment: 2<br>Immoral Traffic Act: 6<br>Indescent Representation: 0<br>Dowry Prohibition Act: 22<br>Total Cases: 203</div>`)[0];
+                popup_813c32299f67ed798c6f67fb3d860f11.setContent(html_ab6822401e5f5625cf0cb29748cda07f);
+            
+        
+
+        marker_efcdacf0677fc1a86b8727a54b322a57.bindPopup(popup_813c32299f67ed798c6f67fb3d860f11)
+        ;
+
+        
+    
+    
+            var marker_40e0bdbfd6ff72d78542e7521063860a = L.marker(
+                [10.7675, 79.63416667],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_f23f9b63c5f45e87548837b73e11fc9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a301fb0656597f6b19e34d362f5e72d = $(`<div id="html_6a301fb0656597f6b19e34d362f5e72d" style="width: 100.0%; height: 100.0%;">District: TIRUVARUR<br>Rape: 15<br>Kidnapping & Abduction: 23<br>Dowry Deaths: 1<br>Cruelty: 15<br>Molestation: 5<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 0<br>Indescent Representation: 0<br>Dowry Prohibition Act: 6<br>Total Cases: 65</div>`)[0];
+                popup_f23f9b63c5f45e87548837b73e11fc9e.setContent(html_6a301fb0656597f6b19e34d362f5e72d);
+            
+        
+
+        marker_40e0bdbfd6ff72d78542e7521063860a.bindPopup(popup_f23f9b63c5f45e87548837b73e11fc9e)
+        ;
+
+        
+    
+    
+            var marker_da5bf9a09d6a69835ce6e0342dff0c91 = L.marker(
+                [10.80305556, 78.70361111],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_86125f5c4047b45a00b1a6746625c625 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebc900384332acbf888dd9121c4cac18 = $(`<div id="html_ebc900384332acbf888dd9121c4cac18" style="width: 100.0%; height: 100.0%;">District: TRICHY<br>Rape: 33<br>Kidnapping & Abduction: 43<br>Dowry Deaths: 3<br>Cruelty: 74<br>Molestation: 61<br>Sexual  Harassment: 6<br>Immoral Traffic Act: 5<br>Indescent Representation: 0<br>Dowry Prohibition Act: 8<br>Total Cases: 233</div>`)[0];
+                popup_86125f5c4047b45a00b1a6746625c625.setContent(html_ebc900384332acbf888dd9121c4cac18);
+            
+        
+
+        marker_da5bf9a09d6a69835ce6e0342dff0c91.bindPopup(popup_86125f5c4047b45a00b1a6746625c625)
+        ;
+
+        
+    
+    
+            var marker_f8129de97bc2f4e25882198342125719 = L.marker(
+                [12.93222222, 79.13055556],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_c12f3d9ed996abafe3efcd8945bdca3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62bbcf44b2e6e6255ab5f9888e7c8bb7 = $(`<div id="html_62bbcf44b2e6e6255ab5f9888e7c8bb7" style="width: 100.0%; height: 100.0%;">District: VELLORE<br>Rape: 51<br>Kidnapping & Abduction: 97<br>Dowry Deaths: 8<br>Cruelty: 40<br>Molestation: 33<br>Sexual  Harassment: 57<br>Immoral Traffic Act: 15<br>Indescent Representation: 0<br>Dowry Prohibition Act: 56<br>Total Cases: 357</div>`)[0];
+                popup_c12f3d9ed996abafe3efcd8945bdca3e.setContent(html_62bbcf44b2e6e6255ab5f9888e7c8bb7);
+            
+        
+
+        marker_f8129de97bc2f4e25882198342125719.bindPopup(popup_c12f3d9ed996abafe3efcd8945bdca3e)
+        ;
+
+        
+    
+    
+            var marker_91e0945a18af2bf3c6ba4c12e141f0ab = L.marker(
+                [11.94388889, 79.48583333],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_834d43f54da46ca31362991120cead96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f30104cc4647aed1bee510517c14a71 = $(`<div id="html_7f30104cc4647aed1bee510517c14a71" style="width: 100.0%; height: 100.0%;">District: VILLUPURAM<br>Rape: 67<br>Kidnapping & Abduction: 166<br>Dowry Deaths: 4<br>Cruelty: 80<br>Molestation: 127<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 5<br>Indescent Representation: 0<br>Dowry Prohibition Act: 23<br>Total Cases: 472</div>`)[0];
+                popup_834d43f54da46ca31362991120cead96.setContent(html_7f30104cc4647aed1bee510517c14a71);
+            
+        
+
+        marker_91e0945a18af2bf3c6ba4c12e141f0ab.bindPopup(popup_834d43f54da46ca31362991120cead96)
+        ;
+
+        
+    
+    
+            var marker_ea512c8a3cc303af28bb6121fe3b8d42 = L.marker(
+                [9.57666667, 77.96],
+                {}
+            ).addTo(map_012ddf86d9dc62ecf950301a603957b1);
+        
+    
+        var popup_dd4fd48b524e11e1c766eb683e9a2c91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ea64616ba4e43fa9a73e0c58f6cd24 = $(`<div id="html_b3ea64616ba4e43fa9a73e0c58f6cd24" style="width: 100.0%; height: 100.0%;">District: VIRUDHUNAGAR<br>Rape: 33<br>Kidnapping & Abduction: 31<br>Dowry Deaths: 3<br>Cruelty: 48<br>Molestation: 16<br>Sexual  Harassment: 0<br>Immoral Traffic Act: 6<br>Indescent Representation: 0<br>Dowry Prohibition Act: 99<br>Total Cases: 236</div>`)[0];
+                popup_dd4fd48b524e11e1c766eb683e9a2c91.setContent(html_b3ea64616ba4e43fa9a73e0c58f6cd24);
+            
+        
+
+        marker_ea512c8a3cc303af28bb6121fe3b8d42.bindPopup(popup_dd4fd48b524e11e1c766eb683e9a2c91)
+        ;
+
+        
+    
+</script>
+</html>
